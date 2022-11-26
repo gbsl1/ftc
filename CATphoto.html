@@ -34,7 +34,23 @@
         <section>
             <h2>Cat form</h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
+                <!--For example, <label><input type="radio"> Indoor</label> makes it so clicking the word label also selects the corresponding 
+                    radio button.-->
+                <!--If you select the Indoor radio button and submit the form, the form data for the button is based on its NAME and VALUE attributes. 
+                    Since your radio buttons do not have a value attribute, the form data will include indoor-outdoor=on, which is not useful when you 
+                    have multiple buttons.-->
+                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor">Indoor</label> 
                 <input type="text" name="catphotourl" placeholder="Cat Photo URL" required>
+                <button type="submit">Submit</button> 
+                OR 
+                <input type="file">
+                <button type="submit">Submit</button> <br>
+                <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">Outdoor</label> 
+                <input type="text" name="catphotourl" placeholder="Cat Photo URL" required>
+                <button type="submit">Submit</button> 
+                OR 
+                <input type="file">
+                <button type="submit">Submit</button>
             </form>
         </section>
     </main>
