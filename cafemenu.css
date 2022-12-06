@@ -1,6 +1,48 @@
+/* you can write comments in css by using /* comment here */
 h1, h2, p {
     text-align:center;
 }
 body {
+    padding:20px;
+    font-family:sans-serif;
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)
+}
+.menu {
+    min-width:200px;
+    max-width:500px;
+    width:80%;
     background-color: burlywood;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+}
+.flavor, .dessert{
+    text-align:left;
+    width:75%;
+}
+.price{
+    text-align:right;
+    width:25%;
+}
+.item p {
+    display:inline-block;
+}
+h1,h2 {
+    font-family:Impact, serif;
+}
+.established {
+    font-family:italic;
+}
+h1{
+    font-size:40px;
+}
+h2{
+    font-size:30px;
+}
+hr {
+    background-color:brown;
+    /*the default height of the borders of an hr element are 1px. 
+    So if the height is 2px the whole height will be 4px because it adds 1px on top and 1px on bottom.*/
+    height:2px;
+    border-color:brown;
 }
