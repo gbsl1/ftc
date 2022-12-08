@@ -7,6 +7,13 @@ body {
     font-family:sans-serif;
     background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)
 }
+
+.menuicon {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-25px;
+}
 .menu {
     min-width:200px;
     max-width:500px;
@@ -26,6 +33,8 @@ body {
 }
 .item p {
     display:inline-block;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 h1,h2 {
     font-family:Impact, serif;
@@ -35,6 +44,8 @@ h1,h2 {
 }
 h1{
     font-size:40px;
+    margin-top:0px;
+    margin-bottom:15px;
 }
 h2{
     font-size:30px;
@@ -45,4 +56,34 @@ hr {
     So if the height is 2px the whole height will be 4px because it adds 1px on top and 1px on bottom.*/
     height:2px;
     border-color:brown;
+}
+.bottom-line {
+    margin-top:25px;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    font-size:14px;
+}
+
+/* Proper order of pseudo selectors:
+-a:link, a:visited, a:hover, a:active */
+a:link{
+    color:black;
+}
+/* a:visited lets you customize the properties of a link when it has been visited */
+a:visited {
+    color:black;
+}
+a:hover {
+    color:brown;
+}
+/* a:active lets you customize the the properties of a link when it is clicked */
+a:active {
+    color:brown;
+}
+
+.address {
+    margin-bottom:15px;
 }
