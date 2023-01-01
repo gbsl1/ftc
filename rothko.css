@@ -5,6 +5,7 @@
     /*overflow lets you control whether the content inside your element can flow over the element (for example flow over the padding, border etc).
     Possible values: auto,visible,hidden, scroll.*/
     overflow:hidden;
+    /*The filter property defines visual effects (like blur and saturation) to an element (often <img>).*/
     filter:blur(1px);
     margin:auto;
 }
@@ -21,6 +22,7 @@
     height: 150px;
     background-color: #efb762;
     border-radius: 9px;
+    /*CSS transforms allow you to move, rotate, scale, and skew elements.*/
     transform:rotate (-0.6deg);
 
     filter: blur(1px);
